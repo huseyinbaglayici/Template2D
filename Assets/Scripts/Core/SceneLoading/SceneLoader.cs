@@ -63,14 +63,6 @@ namespace Project.Core.SceneLoading
             }
         }
 
-        /// <summary>Adopts a content scene that is already open (Editor: playing from a non-Boot scene).</summary>
-        public void AdoptLoadedScene(string sceneName)
-        {
-            CurrentScene = sceneName;
-            SceneManager.SetActiveScene(SceneManager.GetSceneByName(sceneName));
-            EventBus<SceneLoaded>.Raise(new SceneLoaded(sceneName));
-        }
-
         private static async Awaitable Run(AsyncOperation op, Action<float> progress)
         {
             if (op == null) return;

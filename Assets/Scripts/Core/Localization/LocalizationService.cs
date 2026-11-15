@@ -22,7 +22,6 @@ namespace Project.Core.Localization
         private Dictionary<string, string> _fallback;
 
         public string LanguageCode { get; private set; }
-        public IEnumerable<string> Languages => _tables.Keys;
 
         public LocalizationService(IReadOnlyList<LocalizationTable> tables, string preferredCode)
         {

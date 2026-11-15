@@ -17,8 +17,6 @@ namespace Project.Core.Pooling
         internal object Owner;
         internal int InUseIndex = -1;
         internal IPoolable[] Callbacks;
-
-        public bool IsSpawned => InUseIndex >= 0;
     }
 
     /// <summary>

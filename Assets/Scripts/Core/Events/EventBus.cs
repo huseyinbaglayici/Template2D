@@ -18,8 +18,6 @@ namespace Project.Core.Events
 
         static EventBus() => EventBusReset.Register(() => Handlers.Clear());
 
-        public static int HandlerCount => Handlers.Count;
-
         public static void Subscribe(Action<T> handler)
         {
             if (handler != null && !Handlers.Contains(handler)) Handlers.Add(handler);

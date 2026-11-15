@@ -6,7 +6,7 @@ using UnityEngine;
 namespace Project.Editor
 {
     /// <summary>
-    /// Applies the 2D mobile defaults read from the reference games (Gamma, portrait, IL2CPP, ARM64,
+    /// Applies the 2D mobile defaults (Gamma, portrait, IL2CPP, ARM64,
     /// sorting layers) and the git-friendly editor settings. Safe to run more than once.
     /// </summary>
     public static class ProjectSetup

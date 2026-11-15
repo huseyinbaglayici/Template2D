@@ -31,7 +31,6 @@ namespace Project.Core.StateMachine
         private TKey? _pending;
 
         public TKey? CurrentKey { get; private set; }
-        public event Action<TKey?, TKey> Changed;
 
         public StateMachine<TKey> Add(TKey key, IState state)
         {
@@ -54,13 +53,11 @@ namespace Project.Core.StateMachine
             }
 
             _transitioning = true;
-            var previous = CurrentKey;
             _current?.Exit();
             _current = next;
             CurrentKey = key;
             _current.Enter();
             _transitioning = false;
-            Changed?.Invoke(previous, key);
 
             if (_pending is { } queued)
             {

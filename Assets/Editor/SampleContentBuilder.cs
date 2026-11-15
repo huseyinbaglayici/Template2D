@@ -83,8 +83,6 @@ namespace Project.Editor
             Debug.Log("[SampleContent] Built Boot/Home/Game scenes, prefabs and configs. Press Play from any scene.");
         }
 
-        // ---------------------------------------------------------------- scenes
-
         private static void BuildBootScene()
         {
             var scene = EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Single);
@@ -179,8 +177,6 @@ namespace Project.Editor
 
             EditorSceneManager.SaveScene(scene, $"{Scenes}/{SceneNames.Game}.unity");
         }
-
-        // ---------------------------------------------------------------- assets
 
         private static Sprite CreateCircleSprite()
         {
@@ -321,8 +317,6 @@ namespace Project.Editor
             return table;
         }
 
-        // ---------------------------------------------------------------- UI helpers
-
         private static Canvas CreateCanvas(string name, int sortingOrder)
         {
             var go = new GameObject(name, typeof(Canvas), typeof(CanvasScaler), typeof(GraphicRaycaster));
@@ -440,8 +434,6 @@ namespace Project.Editor
             toggle.isOn = true;
             return toggle;
         }
-
-        // ---------------------------------------------------------------- utilities
 
         private static GameObject SavePrefab(GameObject go, string path)
         {

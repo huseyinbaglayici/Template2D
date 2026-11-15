@@ -5,8 +5,8 @@ using UnityEngine;
 namespace Project.Core.Pooling
 {
     /// <summary>
-    /// Data-driven pool sizes (same idea as per-item WarmCount/MaxCount configs):
-    /// designers tune counts here, code only asks the PoolService for a prefab.
+    /// Data-driven pool sizes: designers tune WarmCount/MaxCount here,
+    /// code only asks the PoolService for a prefab.
     /// </summary>
     [CreateAssetMenu(menuName = "Project/Pool Config", fileName = "PoolConfig")]
     public sealed class PoolConfig : ScriptableObject

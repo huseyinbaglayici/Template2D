@@ -31,7 +31,7 @@ namespace Project.Common.UI.PopUps
             IsOpen = true;
             _group.interactable = false;
             OnShow(args);
-            TweenPresets.PopIn(_content);
+            _ = TweenPresets.PopIn(_content);
             await TweenPresets.FadeIn(_group);
             _group.interactable = true;
             _group.blocksRaycasts = true;
@@ -43,7 +43,7 @@ namespace Project.Common.UI.PopUps
             if (!IsOpen) return;
             IsOpen = false;
             _group.interactable = false;
-            TweenPresets.PopOut(_content);
+            _ = TweenPresets.PopOut(_content);
             await TweenPresets.FadeOut(_group);
             gameObject.SetActive(false);
             OnHidden();

@@ -19,8 +19,6 @@ namespace Project.Common.UI.PopUps
             _root = root;
         }
 
-        public bool IsAnyOpen => _current != null;
-
         /// <summary>Shows the popup now, or after the current one closes.</summary>
         public void Show(Popup prefab, object args = null)
         {
