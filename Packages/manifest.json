@@ -9,7 +9,6 @@
     }
   ],
   "dependencies": {
-    "com.coplaydev.unity-mcp": "https://github.com/CoplayDev/unity-mcp.git?path=/MCPForUnity#v10.3.0",
     "com.esotericsoftware.spine.spine-csharp": "https://github.com/EsotericSoftware/spine-runtimes.git?path=spine-csharp/src#405f43295b5832e86d9df3a80beb6bc9df772312",
     "com.esotericsoftware.spine.spine-unity": "https://github.com/EsotericSoftware/spine-runtimes.git?path=spine-unity/Assets/Spine#405f43295b5832e86d9df3a80beb6bc9df772312",
     "com.kyrylokuzyk.primetween": "1.5.2",

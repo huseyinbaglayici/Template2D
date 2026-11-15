@@ -2,6 +2,8 @@
 
 Unity 6.2 template for 2D portrait mobile games (Built-in Render Pipeline).
 
+Requires Unity 6000.2.6f1 and Git (Spine is installed as a git package).
+
 ## Getting started
 1. Open the project and wait for packages to install.
 2. Press Play in any scene. The game always starts from the Boot scene.
@@ -38,4 +40,3 @@ Dependencies go one way: Contexts → Common → Core.
 ## Packages
 - PrimeTween
 - Spine 4.3 (export to `Art/Spine/`)
-- Unity MCP (editor only)
