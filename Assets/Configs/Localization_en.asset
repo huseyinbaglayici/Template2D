@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4bb8761c7385ef419dce13c9dc5e4b1, type: 3}
+  m_Name: Localization_en
+  m_EditorClassIdentifier: Project.Core::Project.Core.Localization.LocalizationTable
+  _languageCode: en
+  _entries:
+  - Key: home.title
+    Value: Template 2D
+  - Key: home.play
+    Value: Play
+  - Key: home.level
+    Value: Level {0}
+  - Key: home.music
+    Value: Music
+  - Key: home.sfx
+    Value: Sound
+  - Key: home.haptics
+    Value: Vibration
+  - Key: game.progress
+    Value: '{0} / {1}'
+  - Key: result.win
+    Value: You win!
+  - Key: result.lose
+    Value: Time's up
+  - Key: common.continue
+    Value: Continue

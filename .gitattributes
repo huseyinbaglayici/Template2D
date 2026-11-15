@@ -1,0 +1,38 @@
+* text=auto
+
+# Unity text assets: keep LF, allow the Unity YAML merge tool
+*.cs diff=csharp text eol=lf
+*.unity text eol=lf merge=unityyamlmerge
+*.prefab text eol=lf merge=unityyamlmerge
+*.asset text eol=lf merge=unityyamlmerge
+*.mat text eol=lf merge=unityyamlmerge
+*.anim text eol=lf merge=unityyamlmerge
+*.controller text eol=lf merge=unityyamlmerge
+*.meta text eol=lf
+*.asmdef text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# Binary assets (stored in normal git, no LFS needed)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tga binary
+*.tif binary
+*.tiff binary
+*.psd binary
+*.psb binary
+*.exr binary
+*.ase binary
+*.aseprite binary
+*.skel binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.mp4 binary
+*.fbx binary
+*.ttf binary
+*.otf binary
+*.zip binary
+*.so binary
+*.aar binary

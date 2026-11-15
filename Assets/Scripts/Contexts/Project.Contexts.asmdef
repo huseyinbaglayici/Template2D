@@ -1,0 +1,21 @@
+{
+    "name": "Project.Contexts",
+    "rootNamespace": "Project.Contexts",
+    "references": [
+        "Project.Core",
+        "Project.Common",
+        "PrimeTween.Runtime",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
