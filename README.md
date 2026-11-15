@@ -40,4 +40,4 @@ Dependencies go one way: Contexts → Common → Core.
 ## Packages
 - PrimeTween
 - Spine 4.3 (export to `Art/Spine/`)
-- Unity MCP (editor only, for AI-assisted development)
+- Unity MCP
